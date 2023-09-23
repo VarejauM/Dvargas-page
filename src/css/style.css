@@ -726,6 +726,7 @@
     }
 
     .prod-info {
+        display: table;
         margin-top: 10px;
         text-align: left;
         max-height: 10%;
@@ -754,7 +755,7 @@
 
 @media screen and (min-width: 576px) {}
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-height: 400px) {
 
     /* Produtos-Página */
 
@@ -1091,6 +1092,7 @@
     }
 
     .prod-info {
+        margin: 0;
         padding: 30px 0;
         font-size: 15px;
     }
